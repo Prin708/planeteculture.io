@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planete culture</title>
+    <link rel="stylesheet" href="css/apropos.css"></head>
+<body>
+    <section class="info">
+        <header class="header">
+            <img src="img/Logo.png" alt="logo du site">
+            <nav class="nav">   
+                <li><a href="index.html">acceuil</a></li>
+                <li><a href="livres.html">Livres</a></li>
+                <li><a href="apropos.html">A propos</a></li>
+                <input id="search"  id="search" value="" placeholder="search for an image"
+        name="search" placeholder="chercher un livre..">
+                    <input type="button" id="button" onclick="ouvrirpage" value="chercher">
+             </nav>
+
+        </header>
+        <div class="landing-page">
+            <h1 class="big-title">Pour ce cultiver, il y a rien de mieux que les livres.</h1>
+            <a href=""> <img src="icones/fleche-vers-le-bas.png" alt="fleche-vers-le-bas"></a>
+        </div>
+
+    </section>
+    <h2>A propos</h2>
+    <section class="texte">
+        <p>Ce site contient des livres numerique au format PDF gratuit. Si vous avez des demandes contacter nous</p>
+        <h2>NOUS CONTACTER</h2>
+    </section>
+    <section class="contact">
+    <div id="after_submit"></div>
+<<div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Your name:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Your email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Your message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+    
+    <input id="submit_button" type="submit" value="Send email" />
+</form>
+    </section>
+    
+</body>
+</html>
