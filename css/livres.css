@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+*{
+    font-family: 'cursive';
+   
+
+}
+
+body{
+    margin: 0 auto;
+}
+
+
+
+/* texte de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+
+header.header img {
+    width: 150px;
+}
+section.top-page{
+    background: url(../img/couverture.png);
+    background-size: cover;
+    height: 80vh;
+}
+
+.big-title{
+    font-family: 'Tangerine';
+    color: white;
+    font-size: 80px;
+    
+}
+.landing-page {
+        padding: 20px 50px;
+    }
+    div.landing-page a {
+        margin: 25px;
+        color: aliceblue;
+    }: 20px 50px;
+}
+div.landing-page a {
+    margin: 25px;
+    color: aliceblue;
+}
+div.landing-page img {
+    width: 10px;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 160px;
+}
+nav.nav {
+    display: flex;
+    justify-items: auto;
+    list-style: none;
+    margin-left: 30px;
+
+}
+nav.nav li {
+ 
+}
+
+nav.nav a {
+    padding: 20px;
+    color: black;
+}
+
+h2 {
+    margin-top: 200px;
+    margin-left: 560px;
+}
+div.all a {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 250px;
+
+}
+div.all img {
+    width: 100px;
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+}
